@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display:flex
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+.aling-items-center{
+    align-items: center;
+}
+.fondo1{
+    background-color: #355a39;
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+   
+}
+.marginfoto{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.margin{
+   
+ padding-left: 30px;
+ padding-right: 30px;
+    
+}
+
+
+.fondo2{
+    background-image: url(../img/coviran-bustamante.png);
+    height: 550px;
+    background-repeat: none;
+    background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.caja{
+    width: 31%;
+    box-shadow:0 0 9px rgb(161, 161, 161);
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.img2{
+    
+    width: 100%;
+}
+.fondo3{
+background-color: #417943;
+color: white;
+
+}
+.menuu{
+  display: inline;
+}
+
+.letra{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom:2px solid white;
+    margin-right: 20px;
+    width: 25%;
+}
+
+img[src="img/fanta.png"]{
+    position: absolute;
+    left: 3000px;
+    transition: left 1s;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.fondo2:hover img[src="img/fanta.png"]{
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+nav ul, nav li {
+    margin: 0px;
+    padding: 0px;}
+    
+nav ul li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+    margin-right: 20px;}
+    
+nav ul li ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+  padding-top: 15px;
+}
+  nav ul li ul li{
+    padding: 10px;
+    width: 230px;
+    border-bottom:2px solid rgb(186, 185, 185) ;
+    margin-right: 0;
+}
+nav ul li ul li:hover{
+background-color: rgb(186, 185, 185);
+}
+  
+nav ul li:hover ul {
+    display: block;}
+li{
+    display: inline;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(129, 128, 128);
+}
+.logo{
+    margin-right: 10%;
+}
+ul li a:hover {
+    color: rgb(6, 181, 6);
+}
+nav ul li ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+nav ul li ul li a{
+    color: rgb(0, 0, 0);
+}
+.fondo5{
+    background-color: white;
+    height: 50px;
+}
+
+.fondo4{
+    background-color: #365a39;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    
+    
+}
